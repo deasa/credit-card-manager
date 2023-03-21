@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
-
+// I need this page to be able to help a user keep track of all the credit cards they have ever had, including the ones they currently own. The information that needs to be tracked for every credit card is: bank name, card name, when the card was opened, when the card was closed (if applicable), when (or if) the card is eligible again for the sign on bonus.
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
